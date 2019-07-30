@@ -5,12 +5,12 @@ from tkinter import scrolledtext
 import tkinter.ttk as ttk
 
 root = Tk()
-root.title("Exchange Rates")
+root.title("Currency Converter")
 
 root.geometry("250x700+1500+50")
 
 try:
-    root.iconbitmap(default='D:\\Petinko\\programovanie\\currencyConvertor\\currency.ico')
+    root.iconbitmap('currency.ico')
 except:
     pass
 
